@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact AUTOMADE</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="tunnel-container"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">
+            <a href="index.html"><i class="fa-solid fa-robot"></i> AUTOMADE</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active-link">Contact Us</a></li>
+        </ul>
+        <a href="https://wa.me/919079282554" target="_blank" class="nav-cta">Book Call</a>
+    </nav>
+
+    <main>
+        <section class="container contact-section">
+            <div class="section-title reveal">
+                <h1>Schedule Your Audit</h1>
+                <p style="font-size:1rem; color:#888; text-transform:none; margin-top:10px;">Speak directly with a Systems Architect. No sales reps.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-form-card reveal delay-1">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" id="name" name="name" placeholder="YOUR NAME" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" id="email" name="email" placeholder="BUSINESS EMAIL" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="DESCRIBE YOUR INFRASTRUCTURE NEEDS..." required></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn-primary full-width">SEND MESSAGE</button>
+                        <p id="formStatus" style="display:none; margin-top:15px; text-align:center;">Message received.</p>
+                    </form>
+                </div>
+
+                <div class="contact-info-card reveal delay-2">
+                    <h3>Direct Line</h3>
+                    <p style="color:#aaa; margin-bottom:20px;">For urgent inquiries regarding enterprise deployments</p>
+                    <ul style="list-style:none;">
+                        <li style="margin-bottom:15px; font-size:1.1rem;"><i class="fa-solid fa-envelope" style="margin-right:10px;"></i> 3581princetiwari9c@gmail.com</li>
+                        <li style="margin-bottom:15px; font-size:1.1rem;"><i class="fa-brands fa-whatsapp" style="margin-right:10px;"></i> +91 90792 82554</li>
+                    </ul>
+                    <a href="https://wa.me/919079282554" target="_blank" style="display:inline-block; margin-top:30px; color:white; text-decoration:underline;">Chat directly on WhatsApp →</a>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="copyright"><p>Engineered by Prince Tiwari. &copy; 2026 AUTOMADE.</p></div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
